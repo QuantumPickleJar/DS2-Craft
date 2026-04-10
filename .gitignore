@@ -1,0 +1,31 @@
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── FreeCAD ───────────────────────────────────────────────────────────────
+# FreeCAD backup files
+*.FCBak
+# FreeCAD lock files
+*.lock
+
+# Keep .FCStd files (they are the CAD source files — commit them)
+
+# ── OS / IDE ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ── Temporary / scratch ───────────────────────────────────────────────────
+/tmp/
+*.tmp
+*.bak
